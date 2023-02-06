@@ -1,0 +1,72 @@
+/*reset de la page*/
+*, ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*modif du corps*/
+body {
+    padding: 80px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*nav*/
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 450px 150px 50px;
+}
+
+.nav h2{
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav h2:hover{
+    transition: 0.3s;
+    border-left: solid black;
+    border-right: solid black;
+}
+
+
+
+
+/*about*/
+.container2{
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2vmin;
+    padding: 0 12px;
+    position: relative;
+
+}
+
+.about {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.source{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
+}
+
+.about a:hover{
+    transition: 0.3s;
+    text-decoration: underline black;
+}
